@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ProjetResQeats</string>
+    <string name="msg_error_inputs">msg_error_inputs  msg_error_inputs  msg_error_inputs</string>
+    <string name="msg_must_not_be_empty">msg_error_inputs  msg_error_inputs  msg_error_inputs</string>
+    <string name="msg_check_your_characters">msg_error_inputs  msg_error_inputs  msg_error_inputs</string>
+    <string name="msg_check_your_confirm_password">msg_error_inputs  msg_error_inputs  msg_error_inputs</string>
+    <string name="msg_coming_soon">msg_error_inputs  msg_error_inputs  msg_error_inputs</string>
+    <string name="msg_check_your_email">msg_error_inputs  msg_error_inputs  msg_error_inputs</string>m
 </resources>

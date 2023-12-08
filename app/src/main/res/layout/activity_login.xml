@@ -50,7 +50,7 @@
         android:layout_margin="20dp"
         app:passwordToggleEnabled="true"
         app:startIconDrawable="@drawable/ic_lock"
-        app:passwordToggleTint="@color/colorPrimary"
+        app:passwordToggleTint="@color/black"
         app:errorEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

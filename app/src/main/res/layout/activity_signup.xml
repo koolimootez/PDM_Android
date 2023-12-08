@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/context_view"
-    tools:context=".ui.LoginActivity">
+    android:id="@+id/context_view">
 
     <Button
         android:id="@+id/btnReturn"
@@ -27,7 +26,8 @@
         app:errorEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivLogo">
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo"
+        tools:ignore="UnknownIdInLayout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/tiFullName"

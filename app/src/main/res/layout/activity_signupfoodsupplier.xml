@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/context_view"
-    tools:context=".ui.LoginActivity">
+    tools:context=".ui.SignupFoodSupplier">
 
     <Button
         android:id="@+id/btnReturn"
@@ -154,12 +154,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="0dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="40dp"
         android:text="signup"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/btnTermsAndPolicy"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button

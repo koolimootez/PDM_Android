@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/context_view"
-    tools:context=".ui.fragments.NewsFragment">
+    tools:context=".ui.fragments.fragmentprofile">
 
     <ImageView
         android:id="@+id/profilePic"
