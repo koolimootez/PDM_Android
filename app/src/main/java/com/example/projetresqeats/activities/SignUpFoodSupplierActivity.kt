@@ -8,19 +8,19 @@ import android.util.Patterns
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.projetresqeats.R
-import com.example.projetresqeats.databinding.ActivitySignupBinding
+import com.example.projetresqeats.databinding.ActivitySignupfoodsupplierBinding
 import com.google.android.material.snackbar.Snackbar
 import tn.esprit.gamer.utils.MyStatics
 
-class SignUpActivity : AppCompatActivity() {
-    private lateinit var binding: ActivitySignupBinding
+class SignUpFoodSupplierActivity : AppCompatActivity(){
+    private lateinit var binding: ActivitySignupfoodsupplierBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivitySignupBinding.inflate(layoutInflater)
+        binding = ActivitySignupfoodsupplierBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val contextView = findViewById<View>(R.id.context_view_mission)
+        val contextView = findViewById<View>(R.id.context_view)
 
         binding.tiFullName.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -91,9 +91,9 @@ class SignUpActivity : AppCompatActivity() {
             Snackbar.make(contextView, getString(R.string.msg_coming_soon), Snackbar.LENGTH_SHORT).show()
         }
 
-        binding.btnReturn.setOnClickListener {
+       /* binding.btnReturn.setOnClickListener {
             finish()
-        }
+        }*/
     }
 
 
@@ -152,7 +152,7 @@ class SignUpActivity : AppCompatActivity() {
         }else{
             binding.tiphoneNumberLayout.isErrorEnabled = false
         }
-    return  true
+        return  true
     }
 
 
